@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - EdTech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #4A90E2;
+      padding: 20px;
+      color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .about-section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .about-section h2, .about-section h3 {
+      color: #2c3e50;
+    }
+
+    .team {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .team-member {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 200px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .footer-column {
+      flex: 1 1 200px;
+      margin: 10px;
+    }
+
+    .footer-column h4 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin: 5px 0;
+    }
+
+    .footer-column ul li a {
+      color: #ffffffcc;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #ffffff33;
+      padding-top: 10px;
+      font-size: 14px;
+      color: #ffffffaa;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>EdTech</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enroll.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <h2>About Us</h2>
+    <p>EdTech is dedicated to delivering quality education through technology. Our platform connects learners with expert instructors across various domains including Data Science, Web Development, AI, and more.</p>
+    <p>We aim to empower students and professionals with real-world skills and knowledge through engaging online courses.</p>
+    <h3>Our Mission</h3>
+    <p>To make education accessible and affordable for everyone, everywhere.</p>
+
+    <h3>Meet Our Team</h3>
+    <div class="team">
+      <div class="team-member">
+        <img src="ahana.jpg" alt="Ahana Mukhopadhaya">
+        <h4>Ahana Mukhopadhaya</h4>
+        <p>Founder & CEO</p>
+      </div>
+      <div class="team-member">
+        <img src="megha.jpg" alt="Megha Bag">
+        <h4>Megha Bag</h4>
+        <p>Lead Developer</p>
+      </div>
+      <div class="team-member">
+        <img src="soma.jpg" alt="Soma Banerjee">
+        <h4>Soma Banerjee</h4>
+        <p>Marketing Head</p>
+      </div>
+      <div class="team-member">
+        <img src="piyali.jpg" alt="Piyali Dinda">
+        <h4>Piyali Dinda</h4>
+        <p>Assistant Manager</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: support@edtech.com</li>
+          <li>Phone: +91 98765 43210</li>
+          <li>Location: Kolkata, India</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 EdTech Platform. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
